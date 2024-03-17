@@ -1,0 +1,42 @@
+fn main() {
+    
+	// CHAPTER 2 - BASIC CONTROL FLOW
+	
+	
+	// if/else
+	
+	// all usual operators are valid:
+	// == , != , < , > , <= , >= , ! , || , &&
+	
+	let x = 42;
+	if x < 42 {
+		println!("less than 42");
+	} else if x == 42 {
+		println!("is 42");
+	} else {
+		println!("greater than 42");
+	}
+	
+	// Loops (infinite)
+	
+	let mut x = 0;
+	loop {
+		x += 1;
+		if x == 42 {
+			break;
+		}
+	}
+	println!("{}", x);
+	
+	
+	// While Loops
+	
+	// if condition evaluates to false, the loop will exit
+	let mut x = 0;
+	while x != 42 {
+		x += 1;
+	}
+	println!("x is {}", x)
+	
+	
+}
