@@ -1,0 +1,11 @@
+fn main() {
+    
+	// GENERIC TYPES
+	
+	
+	// 
+	
+	
+	
+	
+}
